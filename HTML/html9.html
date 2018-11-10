@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+<title> AV </title>
+
+
+
+</head>
+<html>
+<body>
+
+ 
+
+<video id="video" width="400" controls>
+  <source src="" type="video/mp4">
+</video><br>
+
+<audio id="audio" controls>
+   <source src="" type="audio/mp3">
+</audio><br>
+
+
+<button onclick="Mute()" type="button">Mute</button>
+<button onclick="Unmute()" type="button">Unmute</button>
+<button onclick="Pause()" type="button">Pause</button>
+<button onclick="Play()" type="button">Play</button>
+<button onclick="Fullscreen()" type="button">Fullscreen</button><br>
+
+<script>
+var res = document.getElementById("audio");
+function Mute() { 
+    res.muted = true;
+}
+function Unmute() { 
+    res.muted = false;
+} 
+function Play() { 
+    res.play();
+} 
+function Pause() { 
+    res.pause();
+} 
+function Fullscreen() { 
+    alert(res.muted);
+} 
+</script> 
+
+
+<p><b>Note:</b> The autoplay attribute does not work on some devices.</p>
+
+</body>
+</html>
