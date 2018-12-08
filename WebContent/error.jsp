@@ -7,11 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-
-<h1>Registration</h1>  
-<a href="/LoginShoppingCart/addUser.jsp">Add User</a>  
-<a href="/LoginShoppingCart/login.jsp">Login</a> 
-  
-
+Error!!!
 </body>
 </html>
