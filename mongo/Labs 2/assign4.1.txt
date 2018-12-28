@@ -1,0 +1,4 @@
+db.zipcodes.aggregate([{$group:{_id:"$city",totalpopulation:{$sum:"$pop"}}}]
+).pretty()
+
+

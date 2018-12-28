@@ -1,0 +1,2 @@
+db.zipcodes.find({},{"pop":1,_id:"$state"}).sort({"pop":-1})
+

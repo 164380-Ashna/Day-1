@@ -1,0 +1,2 @@
+db.zipcodes.find({},{"pop":1,_id:"$city",city:"texas"}).sort({"pop":-1}).limit(3)
+
